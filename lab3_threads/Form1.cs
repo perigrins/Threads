@@ -26,7 +26,7 @@ namespace lab3_threads
 			matrix1 = matrix.Generate(r, c);
 			matrix2 = matrix.Generate(r, c);
 
-			void matrixMultiplicationWithThreads(int thread_nr)
+			/*void matrixMultiplicationWithThreads(int thread_nr)
 			{
 				Thread[] threads = new Thread[thread_nr];
 				for (int i = 0; i < thread_nr; i++)
@@ -48,7 +48,7 @@ namespace lab3_threads
 				textBox_time.AppendText(Environment.NewLine);
 				textBox_time.AppendText("Elapsed time: ");
 				textBox_time.AppendText(elapsedMs + " ms");
-			}
+			}*/
 
 			void Mult(int thread_nr)
 			{
